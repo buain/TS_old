@@ -17,6 +17,16 @@ namespace MVCInterface.Models
 
         
         public User() { }
+
+        public static IEnumerable<User> GetAllUsers()
+        {
+            var list = BLLHelper.UserBLL.GetAllUsers();
+            foreach (var item in list)
+            {
+                User user = new User(item.Id, item.Email, item.Age, item.RoleId);
+                yield return user;
+            }
+        }
     }
     public class Role //Admin or User
     {

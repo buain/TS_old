@@ -6,8 +6,8 @@ using TestSystem.BLL;
 
 namespace MVCInterface.Models
 {
-    public class TestLogicHelper
+    public class BLLHelper
     {
-        public static TestLogic _logic = new TestLogic();
+        public static UserLogic UserBLL = new UserLogic();
     }
 }

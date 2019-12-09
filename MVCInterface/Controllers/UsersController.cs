@@ -10,11 +10,11 @@ namespace MVCInterface.Controllers
     {
         // GET: Users
         //Показатть список всех пользователей
-        //[AllowAnonymous]
-        //public ActionResult Index()
-        //{
-        //    var model = User.GetAllUsers();
-        //    return View(model);
-        //}
+        [AllowAnonymous]
+        public ActionResult Index()
+        {
+            var model = User.GetAllUsers();
+            return View(model);
+        }
     }
 }

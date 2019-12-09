@@ -53,15 +53,24 @@
   <ItemGroup>
     <Compile Include="TestLogic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserLogic.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\TestSystem.BLL.Interfaces\TestSystem.BLL.Interfaces.csproj">
+      <Project>{9DC69353-B1E4-4F01-A183-93B7AF8D2C21}</Project>
+      <Name>TestSystem.BLL.Interfaces</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TestSystem.DAL.Entities\TestSystem.DAL.Entities.csproj">
       <Project>{D6787B65-A258-48B6-AA85-4EDF746C4A83}</Project>
       <Name>TestSystem.DAL.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TestSystem.DAL.Interfaces\TestSystem.DAL.Interfaces.csproj">
+      <Project>{7FB2DBE2-F84A-40C2-AE90-4857A464EDD0}</Project>
+      <Name>TestSystem.DAL.Interfaces</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
