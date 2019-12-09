@@ -132,15 +132,21 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\TestController.cs" />
     <Compile Include="Controllers\UsersController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Answer.cs" />
+    <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Confirmation.cs" />
     <Compile Include="Models\Models.cs" />
-    <Compile Include="Models\BLLHelper.cs" />
+    <Compile Include="Models\Question.cs" />
+    <Compile Include="Models\Test.cs" />
     <Compile Include="Models\User.cs" />
+    <Compile Include="Models\UserAnswer.cs" />
     <Compile Include="Models\UserContext.cs" />
+    <Compile Include="Models\UserTimeOfTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\CustomRoleProvider.cs" />
   </ItemGroup>
@@ -190,6 +196,7 @@
     <Content Include="Views\Home\Control.cshtml" />
     <Content Include="Views\Home\IndexLogined.cshtml" />
     <Content Include="Views\Account\Logoff.cshtml" />
+    <Content Include="Views\Test\TestsList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -212,6 +219,10 @@
     <ProjectReference Include="..\TestSystem.BLL\TestSystem.BLL.csproj">
       <Project>{0E5FA256-644D-4F60-AB73-1DD3AE76EE2C}</Project>
       <Name>TestSystem.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TestSystem.DAL.Entities\TestSystem.DAL.Entities.csproj">
+      <Project>{D6787B65-A258-48B6-AA85-4EDF746C4A83}</Project>
+      <Name>TestSystem.DAL.Entities</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

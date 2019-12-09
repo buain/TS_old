@@ -12,3 +12,5 @@ D:\!Programming\.NET\EPAM\Ижевск\TestSystem\TestSystem.BLL\obj\Debug\TestS
 D:\!Programming\.NET\EPAM\Ижевск\TestSystem\TestSystem.BLL\obj\Debug\TestSystem.BLL.csproj.CopyComplete
 D:\!Programming\.NET\EPAM\Ижевск\TestSystem\TestSystem.BLL\obj\Debug\TestSystem.BLL.dll
 D:\!Programming\.NET\EPAM\Ижевск\TestSystem\TestSystem.BLL\obj\Debug\TestSystem.BLL.pdb
+D:\!Programming\.NET\EPAM\Ижевск\TestSystem\TestSystem.BLL\bin\Debug\TestSystem.DAL.Interfaces.dll
+D:\!Programming\.NET\EPAM\Ижевск\TestSystem\TestSystem.BLL\bin\Debug\TestSystem.DAL.Interfaces.pdb

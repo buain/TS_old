@@ -83,3 +83,5 @@ D:\!Programming\.NET\EPAM\Ижевск\TestSystem\MVCInterface\bin\System.Web.Pr
 D:\!Programming\.NET\EPAM\Ижевск\TestSystem\MVCInterface\bin\TestSystem.BLL.dll
 D:\!Programming\.NET\EPAM\Ижевск\TestSystem\MVCInterface\bin\TestSystem.BLL.pdb
 D:\!Programming\.NET\EPAM\Ижевск\TestSystem\MVCInterface\bin\TestSystem.BLL.dll.config
+D:\!Programming\.NET\EPAM\Ижевск\TestSystem\MVCInterface\bin\TestSystem.DAL.Entities.dll
+D:\!Programming\.NET\EPAM\Ижевск\TestSystem\MVCInterface\bin\TestSystem.DAL.Entities.pdb

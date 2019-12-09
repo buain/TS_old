@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using TestSystem.BLL;
 
 namespace MVCInterface.Models
 {
-    public class BLLHelper
+    public class Category
     {
-        public static UserLogic UserBLL = new UserLogic();
+        public int Id { get; set; }
+        public string Title { get; set; }
     }
 }

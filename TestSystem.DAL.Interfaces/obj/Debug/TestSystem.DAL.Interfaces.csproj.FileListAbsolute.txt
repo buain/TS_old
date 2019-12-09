@@ -1,0 +1,9 @@
+D:\!Programming\.NET\EPAM\Ижевск\TestSystem\TestSystem.DAL.Interfaces\bin\Debug\TestSystem.DAL.Interfaces.dll
+D:\!Programming\.NET\EPAM\Ижевск\TestSystem\TestSystem.DAL.Interfaces\bin\Debug\TestSystem.DAL.Interfaces.pdb
+D:\!Programming\.NET\EPAM\Ижевск\TestSystem\TestSystem.DAL.Interfaces\bin\Debug\TestSystem.DAL.Entities.dll
+D:\!Programming\.NET\EPAM\Ижевск\TestSystem\TestSystem.DAL.Interfaces\bin\Debug\TestSystem.DAL.Entities.pdb
+D:\!Programming\.NET\EPAM\Ижевск\TestSystem\TestSystem.DAL.Interfaces\obj\Debug\TestSystem.DAL.Interfaces.csprojAssemblyReference.cache
+D:\!Programming\.NET\EPAM\Ижевск\TestSystem\TestSystem.DAL.Interfaces\obj\Debug\TestSystem.DAL.Interfaces.csproj.CoreCompileInputs.cache
+D:\!Programming\.NET\EPAM\Ижевск\TestSystem\TestSystem.DAL.Interfaces\obj\Debug\TestSystem.DAL.Interfaces.csproj.CopyComplete
+D:\!Programming\.NET\EPAM\Ижевск\TestSystem\TestSystem.DAL.Interfaces\obj\Debug\TestSystem.DAL.Interfaces.dll
+D:\!Programming\.NET\EPAM\Ижевск\TestSystem\TestSystem.DAL.Interfaces\obj\Debug\TestSystem.DAL.Interfaces.pdb

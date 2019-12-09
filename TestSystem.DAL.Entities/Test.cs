@@ -9,6 +9,7 @@ namespace TestSystem.DAL.Entities
     public class Test
     {
         public int Id { get; set; }
+        public int Id_Owner { get; set; }
         public string Title { get; set; }
         public int TimeForTest { get; set; }
 
