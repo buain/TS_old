@@ -197,6 +197,9 @@
     <Content Include="Views\Home\IndexLogined.cshtml" />
     <Content Include="Views\Account\Logoff.cshtml" />
     <Content Include="Views\Test\TestsList.cshtml" />
+    <Content Include="Views\Test\Create.cshtml" />
+    <Content Include="Views\Test\Change.cshtml" />
+    <Content Include="Views\Test\StartTest.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

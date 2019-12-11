@@ -38,5 +38,31 @@ namespace MVCInterface.Controllers
 
             return View(model);
         }
+        //GET:
+        [Authorize(Roles = "Admin")]
+        public ActionResult Change()
+        {
+            return View();
+        }
+        //POST:
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
+        public ActionResult Change(Models.Test model)
+        {
+            //
+
+            return View(model);
+        }
+        public ActionResult StartTest()
+        {
+            return View();
+        }
+        public ActionResult StartTest(Models.Test model)
+        {
+            //
+
+            return View(model);
+        }
     }
 }
