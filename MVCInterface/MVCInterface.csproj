@@ -200,6 +200,7 @@
     <Content Include="Views\Test\Create.cshtml" />
     <Content Include="Views\Test\Change.cshtml" />
     <Content Include="Views\Test\StartTest.cshtml" />
+    <Content Include="Views\Test\Test1.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

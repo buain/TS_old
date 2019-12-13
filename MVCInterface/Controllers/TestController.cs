@@ -64,5 +64,15 @@ namespace MVCInterface.Controllers
 
             return View(model);
         }
+        [HttpGet]
+        public ActionResult Test1()
+        {
+            return View();
+        }
+        public void ResultTest1(string Test1Answer1, string Test1Answer2, string Test1Answer3)
+        {
+            
+        }
+
     }
 }

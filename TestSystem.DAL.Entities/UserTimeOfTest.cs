@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TestSystem.DAL.Entities
 {
-    class UserTimeOfTest
+    public class UserTimeOfTest
     {
         public int Id { get; set; }
         public int IdUser { get; set; }
